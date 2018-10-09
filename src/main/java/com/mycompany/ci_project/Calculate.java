@@ -9,9 +9,15 @@ package com.mycompany.ci_project;
  *
  * @author Herman-Peter18001
  */
-public class Main {
-    public static void main(String[] args) {
-        System.out.println(Calculate.divide(6.0f, 3.0f));
-        System.out.println(Calculate.multiply(6.0f, 3.0f));
+public class Calculate {
+    
+    public static float multiply(float a, float b)
+    {
+        return a * b;
+    }
+    
+    public static float divide(float a, float b)
+    {
+        return a / b;
     }
 }
