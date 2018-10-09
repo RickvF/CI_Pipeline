@@ -15,10 +15,10 @@ import org.junit.Test;
 public class CalculateTest {
     @Test
     public void testDivide() {
-        assertEquals(Calculate.divide(6.0f, 3.0f), 2.0f);
+        assertEquals(Calculate.divide(6.0f, 3.0f), 2.0f, 0.0f);
     }
     @Test
     public void testMultiply() {
-        assertEquals(Calculate.multiply(6.0f, 3.0f), 18.0f);
+        assertEquals(Calculate.multiply(6.0f, 3.0f), 18.0f, 0.0f);
     }
 }
